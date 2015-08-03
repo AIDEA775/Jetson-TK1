@@ -1,0 +1,6 @@
+# Datos, webs y wikis
+
+Desde aqui: https://devtalk.nvidia.com/default/topic/766554/embedded-systems/-jetson-tk1-power-supply-dc-or-ac-/post/4280415/#4280415
+> 15W por consumo maximo + 2W por Red * 4 placas = 68W en total
+
+Mas info sobre el consumo: http://elinux.org/Jetson/Jetson_TK1_Power
