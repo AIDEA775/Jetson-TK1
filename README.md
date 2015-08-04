@@ -24,6 +24,11 @@
   5.1 - presionar y no soltar el boton "FORCE RESET" y luego pulsar el boton "RESET"
   
 6 - flashear
-  sudo ./flash.sh -S 8GiB Jetson-tk1 mmcblk0p1
+  sudo ./flash.sh -S 14580MiB jetson-tk1 mmcblk0p1
   
 7 - esperar
+
+
+## Accediendo por ssh sin router
+> http://elinux.org/Jetson/Remote_Access#Hard_method:_Manually_setting_up_a_DHCP_server
+Nota: pude usar comandos (e.g. sudo apt-get update) e iniciar aplicaciones graficas (e.g. nautilus) pero no pude ejecutar alguna aplicacion CUDA o OpenGL
