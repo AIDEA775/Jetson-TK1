@@ -12,37 +12,37 @@
 
 2 - descomprimir todo
 
-    2.1 - abrir terminal e ir donde se encuentrar los archivos descargados del paso 1
+2.1 - abrir terminal e ir donde se encuentrar los archivos descargados del paso 1
     
-    2.2 - tipear
-    
-      sudo tar xpf Tegra124_Linux_R21.4.0_armhf.tbz2
+2.2 - tipear
+
+    sudo tar xpf Tegra124_Linux_R21.4.0_armhf.tbz2
       
-      cd Linux_for_Tegra/rootfs/
-      
-      sudo tar xpf ../../Tegra_Linux_Sample-Root-Filesystem_R21.4.0_armhf.tbz2
+    cd Linux_for_Tegra/rootfs/
+
+    sudo tar xpf ../../Tegra_Linux_Sample-Root-Filesystem_R21.4.0_armhf.tbz2
       
 3 - tipear
 
-  cd ../
+    cd ../
 
-  sudo ./apply_binaries.sh
+    sudo ./apply_binaries.sh
   
 4 - conectar la pc con Jetson TK1 con el cable USB Micro-B
 
 5 - entrar en modo recovery
 
-  5.1 - presionar y no soltar el boton "FORCE RESET" y luego pulsar el boton "RESET"
+    5.1 - presionar y no soltar el boton "FORCE RESET" y luego pulsar el boton "RESET"
   
 6 - flashear
 
-  sudo ./flash.sh -S 14580MiB jetson-tk1 mmcblk0p1
+    sudo ./flash.sh -S 14580MiB jetson-tk1 mmcblk0p1
   
 7 - esperar
 
 
 ## Accediendo por ssh sin router
 
-> http://elinux.org/Jetson/Remote_Access#Hard_method:_Manually_setting_up_a_DHCP_server
+    http://elinux.org/Jetson/Remote_Access#Hard_method:_Manually_setting_up_a_DHCP_server
 
 Nota: pude usar comandos (e.g. sudo apt-get update) e iniciar aplicaciones graficas (e.g. nautilus) pero no pude ejecutar alguna aplicacion CUDA o OpenGL
