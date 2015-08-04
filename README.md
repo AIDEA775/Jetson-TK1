@@ -46,3 +46,16 @@
     http://elinux.org/Jetson/Remote_Access#Hard_method:_Manually_setting_up_a_DHCP_server
 
 Nota: pude usar comandos (e.g. sudo apt-get update) e iniciar aplicaciones graficas (e.g. nautilus) pero no pude ejecutar alguna aplicacion CUDA o OpenGL
+
+Nota2: para cambiar de una Jetson a otra
+
+    matar Network Manager:  sudo pkill NetworkManager
+    
+    restablecer server dhcp:  sudo /etc/init.d/dnsmasq restart
+    
+    probrar con ping: ping tegra-ubuntu
+
+
+## Log
+
+4 ago 2015 - las 3 Jetson TK1 fueron flasheadas
