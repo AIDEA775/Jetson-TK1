@@ -59,4 +59,5 @@ Nota2: para cambiar de una Jetson a otra
 ## Log
 
 4 ago 2015 - las 3 Jetson TK1 fueron flasheadas
+
 6 ago 2015 - actualizado los 3 ubuntus a lo ultimo ultimo (apt-get upgrade)
