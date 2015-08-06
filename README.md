@@ -45,7 +45,7 @@
 
     http://elinux.org/Jetson/Remote_Access#Hard_method:_Manually_setting_up_a_DHCP_server
 
-Nota: pude usar comandos (e.g. sudo apt-get update) e iniciar aplicaciones graficas (e.g. nautilus) pero no pude ejecutar alguna aplicacion CUDA o OpenGL
+Nota: pude usar comandos (e.g. sudo apt-get update) e iniciar aplicaciones graficas (e.g. nautilus) pero no pude ejecutar algun programa CUDA o OpenGL
 
 Nota2: para cambiar de una Jetson a otra
 
@@ -59,3 +59,4 @@ Nota2: para cambiar de una Jetson a otra
 ## Log
 
 4 ago 2015 - las 3 Jetson TK1 fueron flasheadas
+6 ago 2015 - actualizado los 3 ubuntus a lo ultimo ultimo (apt-get upgrade)
