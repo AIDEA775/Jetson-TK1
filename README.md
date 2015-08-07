@@ -64,4 +64,5 @@ Nota2: para cambiar de una Jetson a otra
 
 6 ago 2015 - pegadas las patitas con poxipol
 
+7 ago 2015 - cables de red desgastados con amoladora de banco :D
 
