@@ -66,3 +66,4 @@ Nota2: para cambiar de una Jetson a otra
 
 7 ago 2015 - cables de red desgastados con amoladora de banco :D
 
+10 ago 2015 - configuradas las direcciones IP y definido el nodo maestro
