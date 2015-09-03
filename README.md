@@ -71,3 +71,5 @@ Nota2: para cambiar de una Jetson a otra
 10 ago 2015 - ssh login sin clave desde el maestro
 
 21 ago 2015 - pegada la patita que se habia despegado
+
+3 sep 2015 - servidor nfs + clientes en los dos nodos
