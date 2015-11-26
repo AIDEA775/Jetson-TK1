@@ -55,6 +55,8 @@ Nota2: para cambiar de una Jetson a otra
     
     probrar con ping: ping tegra-ubuntu
 
+## Permitiendo el uso de la GPU a los usuarios por CLI
+Al no tener un X Server instalado fue necesario compilar y ejecutar nvidia-modprobe (https://github.com/NVIDIA/nvidia-modprobe) para cargar el módulo de kernel y crear los archivos de dispositivo NVIDIA, y así permitir que los usuarios puedan utilizar la GPU correctamente.
 
 ## Log
 
